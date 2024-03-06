@@ -3,12 +3,14 @@ body {
   font-size: 16px;
   background-color: #fafafa;
   color: #5e605e;
+  margin: 0;
+  padding: 50px;
 }
 
-.container{
+/* .container{
   width: 800px;
   margin: 20px;
-}
+} */
 
 .img-circle{
   border-radius: 50%;
@@ -27,25 +29,23 @@ a {
 
 /* Media queries */
 @media(max-width: 1200px){
-  .container {
-    width: 100px;
-  }
+
 }
 
 @media(max-width: 992px) {
-  .container {
-    width: 700px;
+  body{
+    padding:30px;
   }
 }
 
 @media(max-width: 768px) {
-  .container {
-    width: 450px;
+  body{
+    padding:20px;
   }
 }
 
 @media(max-width: 576px) {
-  .container {
-    width: 350px;
+  body{
+    padding:10px;
   }
 }

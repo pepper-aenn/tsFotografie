@@ -1,0 +1,20 @@
+.card {
+  display: inline-block;
+  max-width: 100%;
+  width: 30%; /* Set the initial width as a percentage */
+  padding-bottom: 45%; /* Set the aspect ratio (height as a percentage of width, 2:3 ratio) */
+  border: 2px solid #333;
+  box-sizing: border-box;
+  position: relative;
+  text-align: center;
+  overflow: hidden; /* Ensure content doesn't overflow if it's larger */
+}
+
+.card img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
