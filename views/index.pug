@@ -1,5 +1,27 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  .container
+    .card-white#introduction
+      h1 Hello there, I'm Tatjana.
+      img.img-circle(src="/images/logotat.png", width="100px", alt="Anna Schäffner")
+      p Herzlich Willkommen!
+
+    .card-white
+      p beispielfoto
+
+    .card-white
+      p beispielfoto
+
+    .card-white
+      p beispielfoto
+
+    .card-white
+      h2 Kontakt
+      ul.list-inline
+        li
+          a(href="https://instagram.com/tatjanaschaeffner_fotografie?igshid=YmMyMTA2M2Y=", target="_blank")
+            i#insta.fa-brands.fa-instagram
+        li
+          a(href="https://instagram.com/tatjanaschaeffner_fotografie?igshid=YmMyMTA2M2Y=", target="_blank")
+            i.fa-solid.fa-square-envelope
