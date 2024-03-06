@@ -1,8 +1,51 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-family: 'Noto Serif JP', serif;
+  font-size: 16px;
+  background-color: #fafafa;
+  color: #5e605e;
+}
+
+.container{
+  width: 800px;
+  margin: 20px;
+}
+
+.img-circle{
+  border-radius: 50%;
+}
+
+ul {
+  list-style-type: none;
 }
 
 a {
-  color: #00B7FF;
+  text-decoration: none;
+  color: #858c84;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+/* Media queries */
+@media(max-width: 1200px){
+  .container {
+    width: 100px;
+  }
+}
+
+@media(max-width: 992px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media(max-width: 768px) {
+  .container {
+    width: 450px;
+  }
+}
+
+@media(max-width: 576px) {
+  .container {
+    width: 350px;
+  }
 }
